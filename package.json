@@ -1,0 +1,26 @@
+{
+  "name": "BabyComponents",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Andrew Boktor <aboktor@microsoft.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "prod": "webpack serve --mode production --open"
+  },
+  "dependencies": {
+    "inferno": "^8.2.2",
+    "inferno-create-element": "^8.2.2",
+    "preact": "^10.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

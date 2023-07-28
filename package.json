@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "prod": "webpack serve --mode production --open"
+    "startprod": "webpack serve --mode production --open",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "inferno": "^8.2.2",
